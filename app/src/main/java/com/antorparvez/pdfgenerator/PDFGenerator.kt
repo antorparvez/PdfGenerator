@@ -76,7 +76,8 @@ class PDFGenerator {
 
         val canvas = Canvas(bitmap)
         view.draw(canvas)
-        return Bitmap.createScaledBitmap(bitmap, 595, 842, true)
+     //   return Bitmap.createScaledBitmap(bitmap, 595, 842, true)
+        return Bitmap.createScaledBitmap(bitmap, 2480, 3508, true) //A4 paper
     }
 
     private fun convertBitmapToPdf(bitmap: ArrayList<Bitmap>, context: Context) :File {

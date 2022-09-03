@@ -37,7 +37,7 @@ class FirstFragment : Fragment() {
             // findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
 
             val pdfModel = PdfModel(
-                "Test", "PDF",
+                "Test ", "PDF",
                 arrayListOf(
 
                     ListModel("Syed Parvez","Antor","28"),
